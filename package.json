@@ -18,7 +18,9 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "eslint-config-prettier": "8.4.0",
+    "prettier": "2.5.1"
   },
   "eslintConfig": {
     "root": true,
@@ -27,7 +29,8 @@
     },
     "extends": [
       "plugin:vue/essential",
-      "eslint:recommended"
+      "eslint:recommended",
+      "prettier"
     ],
     "parserOptions": {
       "parser": "babel-eslint"
